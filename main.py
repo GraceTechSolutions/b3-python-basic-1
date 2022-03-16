@@ -33,10 +33,6 @@ Line 2
 # can be started with A-Z a-z _
 # case sensitive
 
-# Not Same
-from curses.ascii import isalpha, isspace
-from lib2to3.pytree import convert
-
 
 a = 10
 A = 20
