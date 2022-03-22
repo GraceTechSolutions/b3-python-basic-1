@@ -34,6 +34,10 @@ Line 2
 # case sensitive
 
 
+from ast import Compare
+from xmlrpc.client import Boolean, boolean
+
+
 a = 10
 A = 20
 
@@ -184,5 +188,78 @@ s1 = 'hello'
 # isupper
 
 
+# Boolean
+# 1. Any string except empty str
+# 2. Any number except 0
+# 3. Any list, dict, tuple except empty
 
+# Operators
+# Arithmatic Operator
+# +
+# -
+# *
+# **
+# /
+# %
+# //
+
+
+# Assignment Operator
+# =
+# +=
+# -=
+# *=
+# /=
+# %=
+# //=
+# **=
+
+
+# Comparision Operator
+# ==
+# !=
+# >
+# >=
+# <
+# <=
+
+# Logical Operator
+# and
+# or
+# not
+
+# Identity Operator
+# is
+# isnot
+
+# Membership Operator
 # in
+# not in
+
+# Bitwise Operator
+# &
+# 1 = 001
+# 2 = 010
+#     000
+
+# |
+# 1 = 001
+# 2 = 010
+#     011
+
+# ^
+# 1 = 001
+# 2 = 010
+#     011
+
+
+# ~
+# 0000 0011
+# 1111 1100
+
+# >> #right shift
+# 0000 0001
+
+
+# << # left shift
+# 0000 0010
